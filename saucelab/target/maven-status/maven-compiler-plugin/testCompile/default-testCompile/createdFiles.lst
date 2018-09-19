@@ -1,0 +1,6 @@
+pom\FacebookGoogleResultPO.class
+library\BasePage.class
+library\BaseTest.class
+library\Constants.class
+scripttest\FacebookTest.class
+pom\GooglePagePO.class

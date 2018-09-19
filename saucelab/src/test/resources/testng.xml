@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="8">
+  <test name="chromeTest">
+  <parameter name="mBrowser" value="chrome"/>
+    <classes>
+      <class name="scripttest.TwitterTest"/>
+      <class name="scripttest.LinkedInTest"/>
+      <class name="scripttest.InstagramTest"/>
+      <class name="scripttest.FacebookTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="firefoxTest">
+  <parameter name="mBrowser" value="firefox"/>
+  <classes>
+       <class name="scripttest.TwitterTest"/>
+      <class name="scripttest.LinkedInTest"/>
+      <class name="scripttest.InstagramTest"/>
+      <class name="scripttest.FacebookTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
