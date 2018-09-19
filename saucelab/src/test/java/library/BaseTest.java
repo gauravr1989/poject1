@@ -19,7 +19,7 @@ public class BaseTest implements Constants{
 			if(mBrowser.equalsIgnoreCase("chrome")){
 			 DesiredCapabilities caps = DesiredCapabilities.chrome();
 		    caps.setCapability("platform", "Windows 10");
-		    caps.setCapability("version", "latest");
+		    caps.setCapability("version", "latest");;
 		       driver = new RemoteWebDriver(new java.net.URL(URL), caps);
 		      
 		
